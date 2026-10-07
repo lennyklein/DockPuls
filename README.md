@@ -7,7 +7,11 @@
 # ⚡ DockerPulse
 ### Der ultra-schlanke, elegante Realtime-Container-Monitor für Homelabs & ZimaOS.
 
-![DockerPulse Demo](assets/demo.gif)
+<div align="center">
+
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg](https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg)" alt="Lenny Klein Banner" width="100%">
+</p>
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Framework-black?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
