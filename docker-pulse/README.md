@@ -25,7 +25,8 @@ Vergiss überladene Enterprise-Monitoringsysteme. **DockerPulse** wurde für Sel
 
 ---
 
-## 🚀 Schnellstart & lokale Installation
+## 🛠️ Schnellstart & lokale Installation
+*Für die schnelle lokale Entwicklung direkt auf deinem PC.*
 
 ### 1. Repository klonen oder herunterladen
 Lade das Projekt als ZIP-Datei herunter oder klone es direkt per Git:
@@ -46,8 +47,13 @@ Starte den lokalen Flask-Entwicklungsserver mit folgendem Befehl:
 ---
 
 ## 🐳 Docker & ZimaOS Deployment (Empfohlen)
-Wenn du das Tool dauerhaft und isoliert auf deinem Server laufen lassen möchtest, nutze Docker Compose:
+*Für den dauerhaften und isolierten Betrieb auf deinem Server.*
+
+Wenn du das Tool produktiv auf deinem Server oder ZimaOS laufen lassen möchtest, nutze Docker Compose:
 `docker compose up -d --build`
+
+Danach erreichst du die Benutzeroberfläche über die IP-Adresse deines Servers:
+`http://<deine-server-ip>:5000`
 
 ---
 
