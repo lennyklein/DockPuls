@@ -20,7 +20,7 @@
 ---
 
 ## 🚀 Über das Projekt
-Vergiss überladene Enterprise-Monitoringsysteme. **DocPuls** wurde für Self-Holster und Homelab-Enthusiasten entwickelt, die eine blitzschnelle, minimalistische und wunderschöne Übersicht über ihre aktiven Docker-Container haben wollen – ohne Bloatware.
+Vergiss überladene Enterprise-Monitoringsysteme. **DockPuls** wurde für Self-Holster und Homelab-Enthusiasten entwickelt, die eine blitzschnelle, minimalistische und wunderschöne Übersicht über ihre aktiven Docker-Container haben wollen – ohne Bloatware.
 
 ---
 
@@ -28,7 +28,7 @@ Vergiss überladene Enterprise-Monitoringsysteme. **DocPuls** wurde für Self-Ho
 
 ### 1. Repository klonen oder herunterladen
 Lade das Projekt als ZIP-Datei herunter oder klone es direkt per Git:
-`git clone https://github.com/lennyklein/docpuls.git`
+`git clone https://github.com/lennyklein/dockpuls.git`
 
 ### 2. Abhängigkeiten installieren
 Stelle sicher, dass Python auf deinem System installiert ist. Installiere die benötigten Pakete mit diesem Befehl im Projektordner:
