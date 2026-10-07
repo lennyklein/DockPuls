@@ -10,7 +10,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg](https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg)" alt="Lenny Klein Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg" alt="Lenny Klein Banner" width="100%">
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
