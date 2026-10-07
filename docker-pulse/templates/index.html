@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 min-h-screen p-8">
-    <div class="max-w-4xl mx-auto">
+    <div class="max-w-6xl mx-auto">
         <header class="flex justify-between items-center mb-8 border-b border-gray-800 pb-4">
             <h1 class="text-3xl font-bold tracking-wider text-blue-400">⚡ DockerPulse</h1>
             <span class="text-sm bg-gray-800 text-gray-400 px-3 py-1 rounded-full border border-gray-700">ZimaOS Node</span>
@@ -23,6 +23,8 @@
                             <th class="py-3 px-4">Name</th>
                             <th class="py-3 px-4">Image</th>
                             <th class="py-3 px-4">Status</th>
+                            <th class="py-3 px-4">CPU</th>
+                            <th class="py-3 px-4">RAM</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -37,6 +39,8 @@
                                     <span class="bg-red-500/10 text-red-400 text-xs px-2.5 py-1 rounded-full border border-red-500/20 font-semibold">■ {{ c.status }}</span>
                                 {% endif %}
                             </td>
+                            <td class="py-3 px-4 text-gray-300 font-mono text-sm">{{ c.cpu }}</td>
+                            <td class="py-3 px-4 text-gray-300 font-mono text-sm">{{ c.memory }}</td>
                         </tr>
                         {% endfor %}
                     </tbody>
