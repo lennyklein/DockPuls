@@ -1,9 +1,5 @@
 <div align="center">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg" alt="Lenny Klein Banner" width="100%">
-</p>
-
 # ⚡ DockerPulse
 ### Der ultra-schlanke, elegante Realtime-Container-Monitor für Homelabs & ZimaOS.
 
@@ -63,3 +59,10 @@ Wenn du das Tool dauerhaft und isoliert auf deinem Server laufen lassen möchtes
 
 ## 📝 Lizenz
 Dieses Projekt steht unter der [MIT License](LICENSE).
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg" alt="Lenny Klein Banner" width="100%">
+</p>
+
+
