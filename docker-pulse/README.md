@@ -1,5 +1,10 @@
 <div align="center">
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg" alt="Lenny Klein Banner" width="100%">
+</p>
+
+
 # ⚡ DockerPulse
 ### Der ultra-schlanke, elegante Realtime-Container-Monitor für Homelabs & ZimaOS.
 
@@ -43,14 +48,6 @@ Starte den lokalen Flask-Entwicklungsserver mit folgendem Befehl:
 ## 🐳 Docker & ZimaOS Deployment (Empfohlen)
 Wenn du das Tool dauerhaft und isoliert auf deinem Server laufen lassen möchtest, nutze Docker Compose:
 `docker compose up -d --build`
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="assets/screenshot.png" width="800" alt="DockerPulse Dashboard">
-</div>
 
 ---
 
