@@ -32,4 +32,4 @@ def control_container(action, container_id):
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
