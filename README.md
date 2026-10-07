@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ DockerPulse
+# ⚡ DockPulse
 ### Der ultra-schlanke, elegante Realtime-Container-Monitor für Homelabs & ZimaOS.
 
 <div align="center">
