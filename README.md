@@ -62,6 +62,7 @@ DockPuls ist **Open Source** und wird aktiv weiterentwickelt.
 - [x] RAM-Auslastung
 - [x] Host-Ressourcen
 - [x] Live-Auto-Refresh
+- [x] Refresh-Countdown
 - [x] Container starten
 - [x] Container stoppen
 - [x] Container neustarten
