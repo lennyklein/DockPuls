@@ -1,67 +1,106 @@
 <div align="center">
 
 # ⚡ DockPuls
-### Der ultra-schlanke, elegante Realtime-Container-Monitor für Homelabs & ZimaOS.
 
-<div align="center">
+### Der schlanke Realtime-Container-Monitor für Homelabs & ZimaOS.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/dockpuls-banner.svg" alt="DocPuls Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/dockpuls-banner.svg" alt="DockPuls Banner" width="100%">
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Framework-black?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-UI-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+**DockPuls befindet sich aktuell in Early Access.**
 
 </div>
 
 ---
 
-## 🚀 Über das Projekt
-Vergiss überladene Enterprise-Monitoringsysteme. **DockPuls** wurde für Self-Holster und Homelab-Enthusiasten entwickelt, die eine blitzschnelle, minimalistische und wunderschöne Übersicht über ihre aktiven Docker-Container haben wollen – ohne Bloatware.
+## 🚀 Über DockPuls
+
+DockPuls ist ein schlanker und minimalistischer Realtime-Monitor
+für Docker-Container, entwickelt für **Homelabs und ZimaOS**.
+
+Statt überladener Monitoring-Lösungen konzentriert sich DockPuls
+auf das Wesentliche:
+
+- 📊 CPU- und RAM-Auslastung
+- 🐳 Übersicht aller Docker-Container
+- 🟢 Live-Status der Container
+- 🔄 Automatische Aktualisierung
+- ▶️ Container starten
+- ⏹️ Container stoppen
+- 🔁 Container neu starten
+- 🖥️ Host-Ressourcen auf einen Blick
+
+DockPuls ist **Open Source** und wird aktiv weiterentwickelt.
+
+> ⚠️ DockPuls befindet sich derzeit im Early Access.
+> Funktionen und Oberfläche können sich daher noch verändern.
 
 ---
 
-## 🚀 Schnellstart & lokale Installation
+## 📸 Dashboard
 
-### 1. Repository klonen oder herunterladen
-Lade das Projekt als ZIP-Datei herunter oder klone es direkt per Git:
-`git clone https://github.com/lennyklein/dockpuls.git`
 
-### 2. Abhängigkeiten installieren
-Stelle sicher, dass Python auf deinem System installiert ist. Installiere die benötigten Pakete mit diesem Befehl im Projektordner:
-`pip install -r requirements.txt`
-
-### 3. Anwendung starten
-Starte den lokalen Flask-Entwicklungsserver mit folgendem Befehl:
-`python src/app.py`
-
-### 4. Im Browser öffnen
-Öffne deinen Webbrowser und rufe diese Adresse auf:
-`http://127.0.0.1:5000`
-
----
-
-## 🐳 Docker & ZimaOS Deployment (Empfohlen)
-Wenn du das Tool dauerhaft und isoliert auf deinem Server laufen lassen möchtest, nutze Docker Compose:
-`docker compose up -d --build`
 
 ---
 
 ## 🗺️ Roadmap
-- [x] Basis-Container-Status (Running / Stopped)
-- [x] CPU- und RAM-Auslastung in Echtzeit (inkl. Host-Gesamtübersicht)
-- [x] Live-Auto-Refresh und Steuerungs-Aktionen (Start / Stop / Neustart)
-- [ ] Discord-Webhook Benachrichtigungen bei Container-Ausfällen
+
+### ✅ Bereits verfügbar
+
+- [x] Container-Übersicht
+- [x] Running / Stopped Status
+- [x] CPU-Auslastung
+- [x] RAM-Auslastung
+- [x] Host-Ressourcen
+- [x] Live-Auto-Refresh
+- [x] Container starten
+- [x] Container stoppen
+- [x] Container neustarten
+- [x] Docker-Deployment
+
+### 🚧 In Entwicklung
+
+- [ ] Discord-Webhook-Benachrichtigungen
+- [ ] Container-Logs
+- [ ] Detaillierte Container-Ansicht
+- [ ] Verbesserte Fehlererkennung
+- [ ] Mobile Optimierung
+
+### 🔮 Geplant
+
+- [ ] Plugin-System
+- [ ] Community-Plugins
+- [ ] Erweiterte Statistiken
+- [ ] Historische CPU-/RAM-Werte
+- [ ] Weitere Homelab-Integrationen
 
 ---
 
-## 📝 Lizenz
-Dieses Projekt steht unter der [MIT License](LICENSE).
+## 🧩 Plugin-System
 
+Eine der geplanten Kernfunktionen von DockPuls ist ein
+**erweiterbares Plugin-System**.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lennyklein/lennyklein/refs/heads/main/assets/banner.svg" alt="Lenny Klein Banner" width="100%">
-</p>
+Dadurch sollen Entwickler zukünftig eigene Plugins für DockPuls
+entwickeln und mit der Community teilen können.
+
+---
+
+## 🤝 Mitmachen
+
+DockPuls befindet sich noch in einer frühen Entwicklungsphase.
+
+Feedback, Bug Reports, Feature-Ideen und Pull Requests sind
+willkommen.
+
+Wenn du DockPuls ausprobierst, kannst du gerne ein Issue eröffnen
+und deine Erfahrungen teilen.
+
+⭐ Wenn dir das Projekt gefällt, kannst du dem Repository einen Star geben.
