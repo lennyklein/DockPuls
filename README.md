@@ -46,7 +46,9 @@ DockPuls ist **Open Source** und wird aktiv weiterentwickelt.
 
 ## 📸 Dashboard
 
-
+<p align="center">
+  <img src="screenshots/dashboard.png" alt="DockPuls Dashboard" width="900">
+</p>
 
 ---
 
