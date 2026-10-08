@@ -376,13 +376,9 @@ Für produktive Umgebungen solltest du das Projekt entsprechend absichern und te
 
 ## 📄 Lizenz
 
-DockPuls steht unter der **MIT License**.
+DockPuls steht unter der **[MIT License](LICENSE)**.
 
-Weitere Informationen findest du in der Datei:
-
-```text
-LICENSE
-```
+Weitere Informationen findest du in der [LICENSE-Datei](LICENSE).
 
 ---
 
