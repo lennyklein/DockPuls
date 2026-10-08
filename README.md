@@ -378,8 +378,6 @@ Für produktive Umgebungen solltest du das Projekt entsprechend absichern und te
 
 DockPuls steht unter der **[MIT License](LICENSE)**.
 
-Weitere Informationen findest du in der [LICENSE-Datei](LICENSE).
-
 ---
 
 <div align="center">
