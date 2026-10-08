@@ -104,7 +104,7 @@ Für die Docker-Installation benötigst du:
 
 ```bash
 git clone https://github.com/lennyklein/DockPuls.git
-cd DockPuls/dock-puls
+cd DockPulse/dock-pulse
 ```
 
 ### DockPuls starten
@@ -124,7 +124,7 @@ Ersetze `SERVER-IP` durch die IP-Adresse deines Servers.
 Beispiel:
 
 ```text
-http://192.168.+++.++:5000
+http://192.168.***.**:5000
 ```
 
 ---
@@ -201,9 +201,9 @@ Beispiel:
 
 ```yaml
 services:
-  docker-puls:
+  docker-pulse:
     build: .
-    container_name: docker-puls
+    container_name: docker-pulse
     restart: unless-stopped
     ports:
       - "5000:5000"
